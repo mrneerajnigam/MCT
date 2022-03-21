@@ -1,0 +1,104 @@
+body{
+    font-family: 'Fredoka', sans-serif;
+    font-weight: bolder;
+}
+.col-3{
+    margin: 30px;
+    
+    
+}
+
+.card{
+    background-color:  black;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+
+}
+
+.form-control{
+    width: 658px;
+    margin-left: 19%;
+}
+
+.card-text,.card-color,.card-title{
+    color: white;
+}
+
+.btn{
+    background: #0080ff;
+    color: #ffffff;
+    font-size: 15px;
+    /* padding: 12px 30px;
+    margin-top: 20px; */
+    border-radius: 6px;
+    text-decoration: none;
+    border: 2px solid #0080ff;
+    transition: all 0.3s ease;
+}
+
+.btn:hover{
+    color: crimson;
+    background: none;
+}
+
+
+
+@media(max-width: 1104px){
+    .col-3{
+        width: 100%;
+        margin-bottom: 20px;
+        margin-left: 17%;
+
+    }
+    .form-control{
+        width: 150px
+        
+    }
+}
+@media(max-width: 991px){
+    .col-3{
+        width: 100%;
+        margin-bottom: 20px;
+        margin-left: 17%;
+
+    }
+    .form-control{
+        width: 150px
+        
+    }
+}
+@media(max-width: 690px){
+    .col-3{
+        width: 100%;
+        margin-bottom: 20px;
+        margin-left: 17%;
+
+    }
+    .form-control{
+        width: 150px
+        
+    }
+}
+@media(max-width: 947px){
+    .col-3{
+        width: 100%;
+        margin-bottom: 20px;
+        margin-left: 17%;
+
+    }
+    .form-control{
+        width: 150px
+        
+    }
+}
+@media(max-width: 500px){
+    .col-3{
+        width: 100%;
+        margin-bottom: 20px;
+        margin-left: 17%;
+    }
+    .form-control{
+        width: 150px
+        
+    }
+}
+
